@@ -4,7 +4,7 @@ Pywal-discord is a tool that makes and applies theme to discord with colors gene
 
 #### Requires:
 
-- any css loader for discord (default configuration for BetterDiscord)
+- any css loader for discord (default configuration for Vencord)
 - pywal (`pip install --user pywal`)
 
 #### Works on:
@@ -14,15 +14,16 @@ Pywal-discord is a tool that makes and applies theme to discord with colors gene
 
 #### Installation:
 
-##### Arch Linux
-
-`pywal-discord` is available in the Arch Linux repos as `pywal-discord-git`.
-
 ##### Manual/Git install
 
 ```
-cd pywal-discord
-./install
+cd pywal-discord-vencord
+./setup install
+```
+#### Manual/Git uninstall
+```
+cd pywal-discord-vencord
+./setup uninstall
 ```
 
 [![gif](https://raw.githubusercontent.com/FilipLitwora/pywal-discord/master/images/out.gif)](https://www.youtube.com/watch?v=HZ7CXAt3N2Y)

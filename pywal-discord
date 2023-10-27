@@ -1,5 +1,5 @@
 #!/bin/bash
-path="$HOME/.config/BetterDiscord/themes"
+path="$HOME/.config/Vencord/themes"
 theme="default"
 config="/usr/share/pywal-discord"
 usrconfig="$HOME/.config/pywal-discord"
@@ -7,7 +7,7 @@ usrconfig="$HOME/.config/pywal-discord"
 unameOut="$(uname -s)"
 case "${unameOut}" in
     Darwin*)    config="$HOME/.config/pywal-discord"
-                path="$HOME/Library/Preferences/BetterDiscord/themes"
+                path="$HOME/Library/Preferences/Vencord/themes"
                 usrconfig="$HOME/.config/pywal-discord-themes"
         ;;
 esac
